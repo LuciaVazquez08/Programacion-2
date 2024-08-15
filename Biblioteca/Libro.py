@@ -1,9 +1,17 @@
 class Libro:
+    _ids_existentes = 0
+
     def __init__(self, titulo: str, autor: str, isbn: str, disponible: bool):
+        self.id = self.asignar_id()
         self.titulo = titulo
         self.autor = autor
         self.isbn = isbn
         self.disponible = disponible
+    
+    def asignar_id(self) -> int:
+        id_actual = Libro._ids_existentes
+        Libro._ids_existentes += 1
+        return id_actual
     
     def get_titulo(self) -> str:
         return self.titulo
