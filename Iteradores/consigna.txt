@@ -1,0 +1,39 @@
+Trabajo Práctico: Iteradores en Python
+
+Objetivo
+El objetivo de este trabajo es comprender y practicar la implementación y el uso de iteradores en Python, así como familiarizarse con su funcionamiento a través de ejemplos prácticos.
+
+Parte 1: Crear un Iterador Personalizado
+
+Crea una clase llamada Contador que implemente un iterador. Este iterador debe contar desde un número inicial hasta un número final. La clase debe tener los siguientes métodos:
+
+1. __init__(self, inicio, fin): inicializa el contador con un valor de inicio y un valor de fin.
+2. __iter__(self): devuelve el objeto iterador.
+3. __next__(self): devuelve el siguiente número en la secuencia y lanza `StopIteration` cuando se alcanza el valor final.
+
+
+class Contador:
+    def __init__(self, inicio, fin):
+        pass
+
+    def __iter__(self):
+        pass
+
+    def __next__(self):
+        pass
+
+Prueba de la clase Contador:
+
+contador = Contador(1, 5)
+for numero in contador:
+    print(numero)  # Debería imprimir 1, 2, 3, 4, 5
+
+
+Parte 2: Comprensión de Listas con Iteradores
+
+Crear una lista de números del 1 al 10. Usar una comprensión de listas para crear una nueva lista que contenga el cuadrado de cada número en la lista original.
+
+
+Parte 3: Crear un Generador
+
+Crear un generador llamado `fibonacci` que genere los números de Fibonacci hasta un número dado
