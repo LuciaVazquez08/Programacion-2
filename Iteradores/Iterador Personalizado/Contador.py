@@ -14,8 +14,7 @@ class Contador:
             raise StopIteration
         return nro_act
 
-
-contador = Contador(1, 5)
+contador = Contador(1, 1554)
 for numero in contador:
     print(numero) 
 

@@ -1,4 +1,4 @@
-def fibonacci(n):
+def fibonacci_hasta(n):
     a, b = 0, 1
     contador = 0
     while a < n:
@@ -6,11 +6,11 @@ def fibonacci(n):
         a, b = b, a + b
         contador += 1
 
-fib = fibonacci(9)
+fib = fibonacci_hasta(1513)
 for numero in fib:
     print(numero)
 
-def fibonacciOther(n):
+def fibonacci_cantidad(n):
     a, b = 0, 1
     contador = 0
     while contador < n:
@@ -18,7 +18,7 @@ def fibonacciOther(n):
         a, b = b, a + b
         contador += 1
 
-fib = fibonacciOther(9)
+fib = fibonacci_cantidad(1565)
 for numero in fib:
     print(numero)
 
