@@ -1,4 +1,3 @@
-Trabajo Práctico: Iteradores en Python
 
 Objetivo
 El objetivo de este trabajo es comprender y practicar la implementación y el uso de iteradores en Python, así como familiarizarse con su funcionamiento a través de ejemplos prácticos.
